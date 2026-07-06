@@ -38,15 +38,6 @@ Output goes to `dist/`.
 - **GitHub Pages**: run `npm run build`, then deploy the `dist/` folder
   (e.g. with the `gh-pages` package or a GitHub Actions workflow).
 
-## Content to swap before launch
-- Replace placeholder Unsplash images in `src/data/content.ts` with real
-  chapter photos.
-- Replace faculty/core team names, roles, and social links in
-  `src/data/content.ts`.
-- Update the contact email/social links in `Footer.tsx` and `Contact.tsx`.
-- Wire the contact form to a real backend or email service (planned as
-  part of Phase 2, alongside admin login, event CRUD, blog, and alumni
-  section).
 
 ## Design notes
 - Palette: near-black void background with a violet→cyan signal gradient
