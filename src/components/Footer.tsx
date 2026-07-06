@@ -8,9 +8,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 font-display text-lg font-semibold">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-grad-signal font-mono text-sm text-void">
-                {"{}"}
-              </span>
+              <img src="/logo/acm-logo.png" alt="ACM logo" className="h-20 w-20 object-contain" />
               ACM · PES MCOE
             </div>
             <p className="mt-4 max-w-sm text-sm text-ink-muted">

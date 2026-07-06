@@ -31,11 +31,9 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-center gap-2 font-display text-lg font-semibold">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-grad-signal font-mono text-sm text-void">
-            {"{}"}
-          </span>
-          ACM <span className="text-ink-muted">· PES MCOE</span>
-        </Link>
+  <img src="/logo/acm-logo.png" alt="ACM logo" className="h-24 w-24 object-contain" />
+  ACM <span className="text-ink-muted">· PES MCOE</span>
+</Link>
 
         <div className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
